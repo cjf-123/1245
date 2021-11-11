@@ -1,0 +1,532 @@
+{
+  "views": {
+    "login": {
+      "index": {
+        "describe": "\"going out to sea Translation\" of real-time team cooperation",
+        "email": "Mailbox",
+        "emailPrompt": "Enter your mailbox",
+        "forgotPassword": "Forget your password?",
+        "password": "Password",
+        "passwordPrompt": "Enter your password",
+        "login": "Log in",
+        "noAccount": "No account?",
+        "registered": "Register"
+      },
+      "recoverpw": {
+        "email": "Mailbox",
+        "emailPrompt": "Enter your mailbox",
+        "resetPassword": "Reset password",
+        "go": "go",
+        "login": "Log in",
+        "code": "Verification code",
+        "codePrompt": "Enter the verification code",
+        "newPassword": "New password",
+        "newPasswordPrompt": "Enter a new password",
+        "send": "Send",
+        "sendSuccess": "Sent successfully",
+        "sendFailure": "Failed to send"
+      },
+      "register": {
+        "leftTitle": "Work with members to localize translation, exchange ideas and precipitate experiences; assist the team to work together",
+        "leftOne": "1. Suitable for continuous translation, accumulating with corporate brand culture and business",
+        "leftTwo": "two\u3002 Merchandise listing copywriting, reviews, marketing, email responses, internal documents and other sea scenes are available.",
+        "leftThree": "3. The version can be controlled and the history of translated content can be traced back.",
+        "leftFoue": "4. Support for intelligent translation such as glossary-translation memory, which is infinitely close to manual work.",
+        "nickname": "Nickname",
+        "nicknamePrompt": "Enter your nickname",
+        "email": "Mailbox",
+        "emailPrompt": "Enter your mailbox",
+        "password": "Password",
+        "passwordPrompt": "Enter your password",
+        "haveRead": "I have read and agreed",
+        "privacy": "Privacy protection policy",
+        "registered": "Register",
+        "account": "Do you already have an account?",
+        "login": "Log in",
+        "registeredSuccessfully": "Registered successfully",
+        "PleaseCheck": "Please check Terms",
+        "nicknameError": "Nickname cannot be empty",
+        "emailError": "The mailbox was entered incorrectly.",
+        "passwordCode": "Password cannot be empty"
+      }
+    },
+    "integration": {
+      "authorization": "Third party authorization",
+      "describe": "The translation is integrated into a third-party platform, and the file can be translated by Synchronize with one click.",
+      "connected": "Connected",
+      "connection": "Connect",
+      "cancelAuthorization": "Cancel authorization",
+      "removeAuthorization": "Deregistration",
+      "willRemove": "The authorization of {name} will be revoked.",
+      "isCancelAuthorization": "Please confirm whether to cancel the authorization. After confirmation, your project in {name} will not be able to Synchronize.",
+      "cancel": "cancel",
+      "confirm": "confirm"
+    },
+    "public": {
+      "needPassword": "A password is required to access",
+      "password": "Password",
+      "access": "Visit",
+      "contactAdministrator": "Or contact the administrator to request access",
+      "incorrectAccessPassword": "Access password error",
+      "fourPassword": "Please enter a four-digit password"
+    },
+    "teamProject": {
+      "projectName": "Please enter a project name",
+      "create": "Create",
+      "noSearchResults": "No search results",
+      "noProject": "There is no project yet. let's create one first.",
+      "homePage": "Home page",
+      "task": "Task",
+      "editor": "New / Edit"
+    },
+    "workbenchEdit": {
+      "projectName": "Project name:",
+      "pleaseContent": "Please enter the content",
+      "projectDescription": "Project description:",
+      "sourceLanguage": "Source language:",
+      "pleaseSelect": "Please select",
+      "targetLanguage": "Target language:",
+      "Deadline": "Deadline:",
+      "selectDate": "Select date and time",
+      "associatedGlossary": "Correlative glossary:",
+      "specification": "The glossary is used to standardize and unify the content of specific translation.",
+      "synergy": "Member coordination",
+      "can": "Members can [add terms] and [edit] terms",
+      "notCan": "Members cannot [add terms] or [edit] terms",
+      "complete": "Complete",
+      "pleaseProjectName": "Please enter a project name",
+      "selectTargetLanguage": "Please select at least one target language",
+      "homePage": "Home page",
+      "task": "Task",
+      "new": "New",
+      "editor": "Editing",
+      "creatingSuccessful": "Created successfully",
+      "upload": "Upload",
+      "modifySuccess": "Modified successfully"
+    },
+    "workbenchShow": {
+      "noTranslationTask": "There is no translation task for the current project.",
+      "homePage": "Home page",
+      "workbench": "working table"
+    }
+  },
+  "modules": {
+    "adminAside": {
+      "index": "Home page",
+      "glossary": "Terminology library",
+      "gallery": "Picture library",
+      "integration": "Integration"
+    },
+    "adminHeader": {
+      "addCustomerService": "Add customer service",
+      "customerServiceSupport": "Customer service support",
+      "newbieGuide": "Beginner's Guide",
+      "feedback": "Opinion feedback",
+      "exit": "Quit"
+    },
+    "publicHeader": {
+      "content": "Turn on more features to improve collaboration efficiency",
+      "registered": "Register",
+      "login": "Log in"
+    },
+    "publicMain": {
+      "description": "There is no translation task for the current project."
+    },
+    "publicScreening": {
+      "pleaseSelect": "Please select",
+      "translationTime": "Translation time",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "progress": "Progress"
+    },
+    "workbenchHeader": {
+      "save": "Saving",
+      "theSaved": "Saved",
+      "saveFailed": "Failed to save",
+      "automatically": "The translated content will be saved automatically.",
+      "collaboration": "Collaboration",
+      "share": "Share",
+      "addTranslation": "Add translated text from {appName}",
+      "exit": "Quit",
+      "organization": "organization",
+      "selectOrganization": "Please select an organization",
+      "warehouse": "Warehouse name",
+      "selectWarehouse": "Please select the warehouse name",
+      "branch": "Branch",
+      "selectBranch": "Please select a branch",
+      "translationFiles": "Translation document",
+      "selectTranslationFiles": "Please select a translation file",
+      "pleaseSelect": "Please select",
+      "cancel": "cancel",
+      "determine": "Confirm",
+      "FileUploadTitle": "Prompt",
+      "pleaseBind": "Please bind {appName} first.",
+      "notSupported": "File types are not supported",
+      "createmenu": {
+        "supportSuffix": "Suffixes are supported",
+        "wordTitle": "Word document",
+        "pptTitle": "PPT file",
+        "excelTitle": "Excel file",
+        "notepadTitle": "Notepad / plain text",
+        "markdownTitle": "Markdown format",
+        "webTitle": "Web web page"
+      },
+      "uploadWay": {
+        "localUpload": "Local upload",
+        "GitHubUpload": "GitHub upload"
+      }
+    },
+    "gallery": {
+      "galleryImg": {
+        "prompt": "Are you sure you want to delete this picture?",
+        "cancel": "cancel",
+        "determine": "Confirm",
+        "placeholder": "Please enter the content"
+      },
+      "galleryList": {
+        "picture": "Pictures (a total of {num})",
+        "placeholder": "Please enter a picture name",
+        "selectPicture": "Select Picture",
+        "maxSize": "The size does not exceed 10m",
+        "upload": "Upload",
+        "empty": "There are no pictures in the picture library yet. Please upload them first.",
+        "haveOptions": "Selected:",
+        "item": "{num} item"
+      },
+      "galleryPrjList": {
+        "theGallery": "Picture library"
+      }
+    },
+    "glossary": {
+      "glossaryDetailed": {
+        "originalOrTranslation": "Please enter the original text or translation",
+        "addTerm": "Add terms",
+        "original": "Original text",
+        "translation": "Translation",
+        "creationTime": "Creation time",
+        "operation": "Operation",
+        "editor": "Editing",
+        "good": "Yes",
+        "no": "No need.",
+        "deleteTerm": "Are you sure you want to delete the term?",
+        "delete": "Delete",
+        "editTerms": "Add / edit terms",
+        "sourceLanguage": "Source language",
+        "sourceLanguageNull": "Source language cannot be empty",
+        "termNull": "Term cannot be empty",
+        "targetLanguageNull": "Target language cannot be empty",
+        "translationNull": "Translation cannot be empty",
+        "pleaseSelect": "Please select",
+        "term": "Terminology",
+        "targetLanguage": "Target language",
+        "notRepeated": "The target language and the source language must not be repeated.",
+        "permissions": "Permission setting",
+        "DonTranslate": "No translation",
+        "caseSensitive": "Case sensitive",
+        "cancel": "cancel",
+        "determine": "Confirm"
+      },
+      "glossaryList": {
+        "glossaryName": "Terminology library",
+        "pleaseName": "Please enter a name",
+        "createLibrary": "Create a library",
+        "name": "Name",
+        "editor": "Editing",
+        "pleaseContent": "Please enter the content",
+        "relatedProjects": "Associated project",
+        "termQuantity": "Terminology quantity",
+        "founder": "Founder",
+        "creationTime": "Creation time",
+        "operation": "Operation",
+        "good": "Yes",
+        "no": "No need.",
+        "deleteGlossary": "Are you sure you want to delete this glossary?",
+        "delete": "Delete",
+        "createGlossary": "Create a glossary",
+        "glossary": "Glossary name",
+        "cancel": "cancel",
+        "determine": "Confirm",
+        "message": "Please enter the name of the glossary"
+      }
+    },
+    "workbench": {
+      "articlAdmin": {
+        "pleaseContent": "Please enter the content",
+        "cancel": "cancel",
+        "determine": "Confirm",
+        "keyContent": "The current key is empty, which may cause the current key export to fail",
+        "mt": "MT",
+        "good": "Yes",
+        "no": "No need.",
+        "deleteParagraph": "Are you sure you want to delete this paragraph?",
+        "delete": "Delete",
+        "accurate": "Accurate translation",
+        "qa": "QA check",
+        "recall": "Withdraw",
+        "submitAudit": "Submit for review",
+        "automatic": "Automatically jump to the next one",
+        "refused": "Refuse",
+        "approved": "Approved",
+        "veryPoor": "Very bad",
+        "poor": "Difference",
+        "general": "General",
+        "evaluationGood": "good",
+        "veryGood": "Very good",
+        "modifySuccess": "Modified successfully",
+        "deleteSuccess": "Deleted successfully",
+        "nothingSubmit": "There is nothing to submit.",
+        "submitContent": "Please submit the content first",
+        "havenGraded": "You haven't scored yet."
+      },
+      "articlOperation": {
+        "localUpload": "Local upload",
+        "selectPhoto": "Select from Picture Gallery",
+        "note": "Remarks",
+        "pleaseContent": "Please enter the content",
+        "cancel": "cancel",
+        "determine": "Confirm",
+        "modifySuccess": "Modified successfully",
+        "unselectedImage": "No picture selected"
+      },
+      "articleOverview": {
+        "all": "All",
+        "noTranslation": "Untranslated",
+        "toAudit": "To be examined and approved",
+        "approved": "Approved",
+        "rejected": "Audit rejected",
+        "pleaseContent": "Please enter the content",
+        "positionSortAsc": "Content order from front to back",
+        "positionSortDesc": "Content order from back to front",
+        "updateSortAsc": "Update time from near to far",
+        "updateSortDesc": "Update time from far to near",
+        "sorting": "Sort",
+        "updateTime": "Update time",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "dayEarlier": "Within 24 hours",
+        "sevenDaysAgo": "Within 7 days",
+        "monthAgo": "Within 30 days"
+      },
+      "functionalAreas": {
+        "pleaseSelect": "Please select",
+        "targetLanguage": "Target language",
+        "updateOriginal": "Update the original text",
+        "updateNotification": "After the update, the system automatically notifies all members of the project",
+        "determineUpdate": "Are you sure to update {keyName}?",
+        "cover": "After the update, the original content will be overwritten and the relevant members will be notified in real time.",
+        "cancel": "cancel",
+        "toUpdate": "To update",
+        "inUpdate": "Updating",
+        "pleaseWait": "Please wait a little while, the translator will not stop.",
+        "updateTip": "Update prompt",
+        "timeToSee": "The original text of {keyName} has been updated, please check it in time!",
+        "updateNumber": "Update the number of paragraphs: {num}",
+        "knowThat": "I know",
+        "glossary": "Terminology library",
+        "gallery": "Picture library",
+        "preview": "Preview",
+        "release": "Publish",
+        "notGlossary": "There is no binding corpus for this project.",
+        "notUpdates": "There are no content updates in the current document",
+        "batchTranslation": "Batch operation",
+        "allMt": "Batch translation",
+        "allContentDraftCommit": "Batch submission for review",
+        "allContentReview": "Batch audit passed"
+      }
+    }
+  },
+  "components": {
+    "addCollaboration": {
+      "title": "Add collaborator",
+      "label": "External invitation link",
+      "copy": "One-click copy",
+      "admin": "Administrator",
+      "reviewer": "Auditor",
+      "translator": "Translator",
+      "copySuccess": "Copy successfully",
+      "copyTheFailure": "Replication failed"
+    },
+    "articleProgress": {
+      "paragraph": "Paragraph",
+      "translated": "Translated",
+      "approved": "Audited",
+      "approvedTo": "Approved"
+    },
+    "collaboration": {
+      "placeholder": "Please enter the content",
+      "collaborators": "Collaborator",
+      "addCollaborators": "Add collaborator",
+      "pleaseSelect": "Please select",
+      "managers": "Manager",
+      "reviewer": "Auditor",
+      "translator": "Translator",
+      "admin": "Manager",
+      "removePermissions": "Remove selected permissions",
+      "atLeastOneAdministratorIsRequired": "At least one administrator is needed."
+    },
+    "lang": {},
+    "projectCard": {
+      "asOfTheDate": "Cut-off date",
+      "creationDate": "Creation date",
+      "membersProject": "Project member",
+      "operation": "Operation",
+      "workbench": "working table",
+      "searchTaskName": "Search task name",
+      "task": "Task",
+      "creationTime": "Creation time",
+      "del": "Delete",
+      "taskManagement": "Task management",
+      "editor": "Editing",
+      "ok": "Yes",
+      "no": "No need.",
+      "projectDelTitle": "Are you sure you want to delete this item?",
+      "deleteTask": "Delete task",
+      "deleteTaskP1": "You are deleting a task",
+      "deleteTaskP2": "The current task will be permanently deleted,",
+      "deleteTaskP3": "Irrecoverable",
+      "deleteTaskP4": "Contains the translated content, the translator's draft, etc., can not be restored, please proceed with caution!",
+      "secondaryConfirmation": "Enter a task name to confirm deletion",
+      "secondaryConfirmationPrompt": "File name cannot be empty",
+      "cancel": "cancel",
+      "confirm": "confirm",
+      "index": "Home page",
+      "deleteSuccess": "Deleted successfully",
+      "deleteFailedPrompt": "The file name you entered does not match the deleted file name"
+    },
+    "publicPreview": {
+      "originalPreview": "Original text preview",
+      "translationPreview": "Translation preview",
+      "emptyDescription": "The content has not been submitted and reviewed yet, so it cannot be previewed."
+    },
+    "release": {
+      "translationTask": "Translation task",
+      "haveOptions": "Selected:",
+      "options": "{num} item",
+      "targetLanguage": "Target language",
+      "pleaseSelect": "Please select",
+      "fileNamingFormat": "File naming format",
+      "such": "Such as:",
+      "releaseTo": "Publish to",
+      "organization": "organization",
+      "organizationPrompt": "Please select an organization",
+      "warehouse": "Warehouse name",
+      "warehousePrompt": "Please select the warehouse name",
+      "branch": "Branch",
+      "branchPrompt": "Please select a branch",
+      "outputDirectory": "Output directory",
+      "releaseLog": "Publish Log",
+      "pleaseContent": "Please enter the content",
+      "unbounded": "You have not bound the git repository yet, please go to bind",
+      "cancel": "cancel",
+      "download": "download",
+      "release": "Publish",
+      "fileName": "File name"
+    },
+    "sectionList": {
+      "draft": "Draft",
+      "audit": "To be examined and approved",
+      "through": "Pass through",
+      "rejected": "Rejected",
+      "noTranslation": "No translation content",
+      "interpreter": "Interpreter",
+      "auditor": "Auditor"
+    },
+    "share": {
+      "password": "Sharing-password access",
+      "private": "Private ownership",
+      "passwordDescribe": "Only people with passwords can access",
+      "privateDescribe": "Only people who know the link can visit",
+      "accessPassword": "Access password (4 digits):",
+      "passwordCannotEmpty": "Password cannot be empty",
+      "passwordMustNnumber": "Password must be a number",
+      "passwordPrompt": "Password must be four digits",
+      "copyLink": "Copy Link",
+      "copySuccess": "Copy successfully",
+      "copyFailure": "Replication failed",
+      "fourDigitPassword": "Please enter a four-digit password"
+    },
+    "term": {
+      "copy": "Copy",
+      "noCorresponding": "There is no translation of corresponding terms.",
+      "notTranslate": "Untranslatable",
+      "caseSensitive": "Case sensitive",
+      "copySuccess": "Copy successfully",
+      "copyFailure": "Replication failed"
+    },
+    "transformationProgress": {
+      "notAtThe": "Not started",
+      "hasBeenCompleted": "Done"
+    }
+  },
+  "store": {
+    "asset": {
+      "fileTypesAreNotSupported": "File types are not supported",
+      "onTheCross": "Uploading",
+      "uploadFailed": "Upload failed",
+      "fileIsTooLarge": "Upload failed because the file is too large",
+      "parseFailure": "Parsing failed"
+    },
+    "exportFile": {
+      "deleteSuccess": "Deleted successfully",
+      "creatingSuccessful": "Created successfully",
+      "reviewStatus": "Please select the task audit status",
+      "targetLanguage": "Please select the target language",
+      "fileEmpty": "File cannot be empty"
+    },
+    "gallery": {
+      "addSuccess": "Added successfully",
+      "deleteSuccess": "Deleted successfully",
+      "modifySuccess": "Modified successfully"
+    },
+    "general": {
+      "index": "Home page"
+    },
+    "git": {
+      "releaseSuccess": "Released successfully"
+    },
+    "glossary": {
+      "creatingSuccessful": "Created successfully",
+      "deleteSuccess": "Deleted successfully",
+      "modifySuccess": "Modified successfully",
+      "createFailure": "Failed to create, the term already exists"
+    },
+    "intergrations": {
+      "gitHub": "Exchange files with the GitHub repository.",
+      "gitee": "Exchange files with the Gitee repository.",
+      "coding": "Exchange files with the Coding repository.",
+      "gitlab": "Exchange files with the Gitlab repository.",
+      "dropbox": "Exchange files with the Dropbox repository.",
+      "onedrive": "Exchange files with the Onedrive repository.",
+      "boundAccount": "Bind account:",
+      "cancelAuthorization": "Authorization cancelled successfully"
+    },
+    "key": {
+      "deleteSuccess": "Deleted successfully",
+      "modifySuccess": "Modified successfully"
+    },
+    "prjMember": {
+      "deleteSuccess": "Deleted successfully",
+      "modifySuccess": "Modified successfully"
+    },
+    "section": {
+      "creatingSuccessful": "Created successfully",
+      "modifySuccess": "Modified successfully"
+    },
+    "translation": {
+      "submittedSuccessfully": "Submitted successfully",
+      "translationSuccessful": "Successful translation",
+      "reviewSuccessful": "Submitted for review successfully",
+      "returnAuditSuccess": "Returned for review successfully",
+      "withdrawReview": "The application for examination was withdrawn successfully.",
+      "allMt": "Batch translation successful",
+      "allContentDraftCommit": "Batch submitted successfully",
+      "allContentReview": "Batch audit succeeded",
+      "crazyTranslation": "Crazy translation",
+      "cancelTranslation": "Cancel translation",
+      "crazySubmission": "Crazy submission",
+      "cancelSubmission": "Cancel submission",
+      "crazyReview": "In the middle of a frenzied audit",
+      "cancelReview": "Cancel the audit"
+    }
+  }
+}
